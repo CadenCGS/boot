@@ -1,0 +1,113 @@
+body {
+    height: 4000px;
+    background-color: rgb(248, 248, 239);
+}
+
+html {
+    background-color: rgb(248, 248, 239);
+    padding-left: 20%;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: rgba(63, 158, 253, .9);
+    height: 100%;
+    position: fixed;
+    margin-left: -21.3%;
+    text-align: center;
+    flex-direction: column;
+    border-right: 9px solid rgb(168, 211, 255);
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    transition: all .25s;
+    color: rgba(255, 255, 255, 0.726);
+    font-size: 1.5rem;
+}
+
+.nav-link:hover {
+    transition: all .25s;
+    color: white;
+    text-shadow: darkslategrey;
+    font-size: 1.7rem;
+}
+
+#pfp {
+    border: 9px solid rgba(255, 255, 255, .4);
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+    position: static;
+    margin-bottom: 20px;
+}
+
+#primaryName {
+    font-family: 'Saira Extra Condensed';
+    color: rgb(146, 146, 146);
+}
+
+#secondaryName {
+    font-family: 'Saira Extra Condensed';
+    color: rgba(63, 158, 253, .9);
+}
+
+#main {
+    padding-top: 10%;
+}
+
+.info {
+    font-size: 1.7rem;
+}
+
+.info2 {
+    font-size: 1.3rem;
+    text-indent: 30px;
+}
+
+#top {
+    color: rgba(63, 158, 253, 0);
+}
+
+.infoLink {
+    text-decoration: none;
+    font-family: 'Saira Extra Condensed';
+    color: rgb(110, 110, 110);
+}
+
+.infoLink:hover {
+    color: black;
+}
+
+#emailLink {
+    text-decoration: none;
+    color: black;
+}
+
+.socialLinks {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    background-color: rgb(146, 146, 146);
+    margin-left: 3%;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    transition: all .25s;
+}
+
+.socialLinks:hover {
+    transition: all .25s;
+    background-color: rgb(75, 75, 75);
+}
+
+#gitSocialImg {
+    border-radius: 50%;
+    height: 55%;
+    width: 55%;
+    margin-top: 25%;
+}
