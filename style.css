@@ -69,7 +69,8 @@ ul {
     text-indent: 30px;
 }
 
-#top {
+#top,
+#exp {
     color: rgba(63, 158, 253, 0);
 }
 
@@ -88,15 +89,17 @@ ul {
     color: black;
 }
 
+.socialHolder {
+    margin-left: 3%;
+}
+
 .socialLinks {
     height: 65px;
     width: 65px;
     border-radius: 50%;
     background-color: rgb(146, 146, 146);
-    margin-left: 3%;
     display: flex;
     justify-content: center;
-    padding: 5px;
     transition: all .25s;
 }
 
@@ -110,4 +113,44 @@ ul {
     height: 55%;
     width: 55%;
     margin-top: 25%;
+}
+
+#igSocialImg {
+    border-radius: 50%;
+    height: 80%;
+    width: 80%;
+    margin-top: 11%;
+}
+
+#fbSocialImg {
+    border-radius: 50%;
+    height: 55%;
+    width: 55%;
+    margin-top: 22%;
+}
+
+#liSocialImg {
+    border-radius: 50%;
+    height: 55%;
+    width: 55%;
+    margin-top: 22%;
+}
+
+.pageBreak {
+    border: 2px solid rgba(63, 158, 253, .9);
+    width: 85%;
+    margin-top: 9%;
+    margin-right: 13%;
+}
+
+.subSectionName {
+    font-family: 'Saira Extra Condensed';
+    color: rgb(146, 146, 146);
+}
+
+.subSectionInfo {
+    font-family: 'Saira Extra Condensed';
+    color: rgb(110, 110, 110);
+    font-size: 1.7rem;
+    margin-left: 60px;
 }
