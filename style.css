@@ -166,3 +166,9 @@ ul {
     margin-left: 6%;
     margin-bottom: -1%;
 }
+
+@media (max-width: 993px) {
+    .navbar {
+        display: none;
+    }
+}
