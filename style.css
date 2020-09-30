@@ -141,7 +141,7 @@ ul {
     border: 2px solid rgba(63, 158, 253, .9);
     width: 85%;
     margin-top: 4%;
-    margin-right: 13%;
+    margin-right: 10%;
 }
 
 .subSectionName {
@@ -161,10 +161,20 @@ ul {
 }
 
 #aboveDate {
-    border: 2px solid rgba(63, 158, 253, .9);
-    width: 27.5%;
+    border-top: 4px solid rgba(63, 158, 253, .9);
+    width: 295px;
     margin-left: 6%;
     margin-bottom: -1%;
+}
+
+#mainContent {
+    padding-left: 23%;
+}
+
+@media (max-width: 993px) {
+    #mainContent {
+        padding-left: 5%;
+    }
 }
 
 @media (max-width: 993px) {
