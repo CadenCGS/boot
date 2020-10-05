@@ -71,7 +71,10 @@ ul {
 }
 
 #top,
-#exp {
+#exp,
+#edu,
+#aw,
+#exa {
     color: rgba(63, 158, 253, 0);
 }
 

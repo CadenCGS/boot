@@ -40,13 +40,10 @@
                 <a class="nav-link" href="#exp">Experience</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Education</a>
+                r <a class="nav-link" href="#edu">Education</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Skills</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Awards</a>
+                <a class="nav-link" href="#aw">Awards</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Examples</a>
@@ -65,8 +62,32 @@
             <p class="info" class="display-4"><em>
                     <a ref="https://www.google.com/maps/place/814+Malaga+Ave,+Coral+Gables,+FL+33134/@25.7423984,-80.2733311,17z/data=!3m1!4b1!4m5!3m4!1s0x88d9b78c787c0b2b:0x635ff7926d631e6d!8m2!3d25.7423936!4d-80.2711371"
                         target="_blank" class="infoLink">Malaga Avenue · Coral Gables, Florida 33134</a>
-                    · <a class="infoLink" onclick="call();">(786) 442-6148</a> · <a class="infoLink"
-                        href="emailFiles/email.html" target="_blank">@cserrato21352@columbushs.com</a></em></p>
+                    · <a class="infoLink" data-toggle="modal" data-target="#exampleModal">(786)
+                        442-6148</a> · <a class="infoLink" href="emailFiles/email.html"
+                        target="_blank">@cserrato21352@columbushs.com</a></em></p>
+
+            <!-- Modal  -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            Do you want to call this number?
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Call</button>
+                            <button type="button" class="btn btn-secondary">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <br>
             <p class="info2 display-4"><strong><em>I am a Senior High School Student looking to go into the Field of
                         Engineeing. My
@@ -146,18 +167,142 @@
 
             <div id="aboveDate">
 
-                <p class="info2 display-4" style="text-indent: 22.5px; margin-top: 2%;"><strong>Date:
+                <p class="info2 display-4" style="text-indent: 22.5px; margin-top: 2%; margin-bottom: 5%;">
+                    <strong>Date:
                         <span style="color: rgba(63, 158, 253, 1);">August 2018 -
                             Present</span></strong></p>
             </div>
         </div>
 
-        <hr class="pageBreak" style="margin-top: 9%">
+        <!-- Used To Scroll To Education on Navbar  -->
+        <p id="edu">.</p>
 
+        <hr class="pageBreak" style="margin-top: 6%">
 
-    </section>
+        <div id="experience" class="container">
+            <h1 style="margin-top: 6%; text-indent: 35px; color: rgba(63, 158, 253, .9);"
+                class="subSectionName display-3">
+                Education</h1>
 
-    <!-- Bootstrap Scripts  -->
+            <h1 style="text-indent: 60px; font-size: 3rem; margin-top: 2%;" class="subSectionName display-4">
+                Introduction to Engineering</h1>
+            <br>
+            <p class="info2 display-4"><strong><em>I took this class my sophmore year, as my first engineering class. It
+                        introduced me to engineering by showing me how to 3D model and how to plan and design projects
+                        as an engineer.</em></strong></p>
+
+            <div id="aboveDate">
+                <p class="info2 display-4" style="text-indent: 22.5px; margin-top: 2%;"><strong>Year:
+                        <span style="color: rgba(63, 158, 253, 1);">Sophmore</span></strong></p>
+            </div>
+
+            <h1 style="text-indent: 60px; font-size: 3rem; margin-top: 2%;" class="subSectionName display-4">
+                Honors Principles of Engineering</h1>
+            <br>
+            <p class="info2 display-4"><strong><em>I took this class my Junior year, and it was a much more hands on
+                        class. We worked with more advanced electronics than the previous year, and dove into topics
+                        such as not only building but programming.</em></strong></p>
+
+            <div id="aboveDate">
+                <p class="info2 display-4" style="text-indent: 22.5px; margin-top: 2%;"><strong>Year:
+                        <span style="color: rgba(63, 158, 253, 1);">Junior</span></strong></p>
+            </div>
+
+            <h1 style="text-indent: 60px; font-size: 3rem; margin-top: 2%;" class="subSectionName display-4">
+                AP Physics</h1>
+            <br>
+            <p class="info2 display-4"><strong><em>I took also took AP Physics to supplement the mathematics part of
+                        engineering my Junior year. While I struggled at first, I worked hard, came through, and passed
+                        the class at the end. I learned various mathematics in that class I use daily as an
+                        engineer.</em></strong></p>
+
+            <div id="aboveDate">
+                <p class="info2 display-4" style="text-indent: 22.5px; margin-top: 2%;"><strong>Year:
+                        <span style="color: rgba(63, 158, 253, 1);">Junior</span></strong></p>
+            </div>
+
+            <h1 style="text-indent: 60px; font-size: 3rem; margin-top: 2%;" class="subSectionName display-4">
+                Engineering Design</h1>
+            <br>
+            <p class="info2 display-4"><strong><em>This was the third and final engineering class I took my Junior year.
+                        It tought more about the pre-building/planning phase of engineerng, and dove into 2D skletching
+                        of the parts that we make in a 4 view system. Isometric, Top, Front, and Right.</em></strong>
+            </p>
+
+            <div id="aboveDate">
+                <p class="info2 display-4" style="text-indent: 22.5px; margin-top: 2%;"><strong>Year:
+                        <span style="color: rgba(63, 158, 253, 1);">Junior</span></strong></p>
+            </div>
+
+            <h1 style="text-indent: 60px; font-size: 3rem; margin-top: 2%;" class="subSectionName display-4">
+                Honors Robotics</h1>
+            <br>
+            <p class="info2 display-4"><strong><em>Honors Robotics was one of the two Stem/Engineering based classes I
+                        took my Senior year. Honors Robotics focuses strongly of designing, building, and programming
+                        autonomous robots. IT is invaluable experience for later on real world
+                        engineering.</em></strong></p>
+
+            <div id="aboveDate">
+                <p class="info2 display-4" style="text-indent: 22.5px; margin-top: 2%;"><strong>Year:
+                        <span style="color: rgba(63, 158, 253, 1);">Senior</span></strong></p>
+            </div>
+
+            <h1 style="text-indent: 60px; font-size: 3rem; margin-top: 2%;" class="subSectionName display-4">
+                AP Computer Science Principles</h1>
+            <br>
+            <p class="info2 display-4"><strong><em>AP Computer Science Principles was the second and final
+                        Stem/Engineering based classes I took my
+                        senior year. It taught me how to code in at least 3 different langauges, how to be an efficient
+                        and neat coder, and how to solve problems and assert myself.</em></strong></p>
+
+            <div id="aboveDate">
+                <p class="info2 display-4" style="text-indent: 22.5px; margin-top: 2%; margin-bottom: 5%;"><strong>Year:
+                        <span style="color: rgba(63, 158, 253, 1);">Senior</span></strong></p>
+            </div>
+
+        </div>
+
+        <!-- Used To Scroll To Awards on Navbar  -->
+        <p id="aw">.</p>
+
+        <hr class="pageBreak" style="margin-top: 4%">
+
+        <div id="experience" class="container">
+            <h1 style="margin-top: 6%; text-indent: 35px; color: rgba(63, 158, 253, .9);"
+                class="subSectionName display-3">
+                Awards</h1>
+
+            <h1 style="text-indent: 60px; font-size: 3rem; margin-top: 2%;" class="subSectionName display-4">
+                Vex Tournament Champion</h1>
+            <br>
+            <p class="info2 display-4"><strong><em>November 3rd, 2020, I won my first roboticsd competition ever. Not
+                        only that, I went completely undefeated, coming 1st in qualfiiers and not losing a single
+                        elimination match.</em></strong></p>
+
+            <div id="aboveDate">
+                <p class="info2 display-4" style="text-indent: 22.5px; margin-top: 2%; margin-bottom: 5%;"><strong>Year:
+                        <span style="color: rgba(63, 158, 253, 1);">Senior</span></strong></p>
+            </div>
+
+        </div>
+
+        <!-- Used To Scroll To Examples on Navbar  -->
+        <p id="exp">.</p>
+
+        <hr class="pageBreak" style="margin-top: 4%">
+
+        <div id="experience" class="container">
+            <h1 style="margin-top: 6%; text-indent: 35px; color: rgba(63, 158, 253, .9);"
+                class="subSectionName display-3">
+                Examples</h1>
+
+            <h1 style="text-indent: 60px; font-size: 3rem; margin-top: 2%;" class="subSectionName display-4">
+                Pictures</h1>
+            <br>
+
+        </div>
+
+    </section> <!-- Bootstrap Scripts -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
@@ -170,4 +315,5 @@
 
 </body>
 <!-- End  -->
+
 </html>
